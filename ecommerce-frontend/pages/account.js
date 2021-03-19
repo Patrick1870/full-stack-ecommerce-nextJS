@@ -23,7 +23,7 @@ export default function Account() {
                 <meta name="description" content="account page" />
             </Head>
 
-            <h2>Account Page</h2>
+            <h2>Account Page, you logged in as a {user.email}</h2>
 
             <Link href="/"><a onClick={logoutUser}>Logout</a></Link>
 
