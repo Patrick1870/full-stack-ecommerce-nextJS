@@ -23,7 +23,10 @@ export default function Account() {
                 <meta name="description" content="account page" />
             </Head>
 
-            <h2>Account Page, you logged in as a {user.email}</h2>
+            <div className="flex h-screen w-full items-center align-middle justify-center">
+                <h2 className="text-md">Account Page, you logged in as a {user.email}</h2>
+            </div>
+                
 
             <Link href="/"><a onClick={logoutUser}>Logout</a></Link>
 
